@@ -1,0 +1,58 @@
+body{
+   background-color: rgb(20, 20, 20);
+   color: whitesmoke;
+}
+/*navbar*/
+.bandera:hover{
+   transform: scale(1.2); 
+}
+/*Banner*/
+.banner{
+   height: 400px;
+  background-image: url(../assets/Banner1.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.foto{
+   width: 300px;
+   border-radius: 50%;
+   display: block;
+   margin: auto;
+   padding-top: 2%;
+}
+/*Body Text*/
+.body-text{
+   margin-top: 10%;
+   margin-bottom: 10%;
+   border-width: 100px;
+   border-color: black;
+   font-family:'Montserrat', sans-serif;;
+   
+}
+.hola{
+   font-size: 800%;
+   text-align: center;
+}
+.nombre{
+   font-size: 500%;
+   text-align: center;
+}
+.presentacion{
+   font-size: 200%;
+   text-align: center;
+}
+/*Bottom*/
+.bottom{
+   background-color: rgb(37, 37, 37);
+   padding-top: 50px;
+}
+/*Proyectos*/
+.proyectos{
+   padding-top: 10%;
+}
+/*Contact*/
+.contact{
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   background-size: cover;
+   max-height: auto;
+}
